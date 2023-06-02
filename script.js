@@ -4,7 +4,7 @@ var domande = [
     "Preferisci i piatti dolci o salati?",
     "Ti piacciono le verdure?",
     "Quanto ami i cibi piccanti?",
-    "Hai preferenze alimentari particolari (vegetariano, vegano, senza glutine, ecc.)?"
+    "Preferisci mangiare al fast food o in un ristorante?"
   ];
   
   // Array di risposte possibili
@@ -13,16 +13,16 @@ var domande = [
     ["Dolci", "Salati", "Entrambi"],
     ["Sì", "No"],
     ["Molto", "Poco", "Per niente"],
-    ["Sì", "No"]
+    ["fast food", "ristorante"]
   ];
   
   // Array di risultati possibili
   var risultati = [
-    "Sei un appassionato di bistecche!",
-    "Sei un amante dei dolci!",
-    "Sei un vegetariano convinto!",
-    "Sei un amante dei cibi piccanti!",
-    "Hai preferenze alimentari particolari!"
+    "sei proprio un Ragù alla Bolognese",
+    "Sei un bellissimo e dolcissimo Panckake!",
+    "Fa strano ma sei un amante del Minestrone",
+    "Sei un gustosa Pizza Piccante",
+    "Sei un tipo da kebab (Sciao biello, con o senza scipolla)"
   ];
   
   // Funzione per calcolare il risultato
